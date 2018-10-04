@@ -32,7 +32,7 @@ class LikeUsers extends React.Component {
             return (
               <Card key={id}>
                 <Image 
-                  src={image || defaultImage}
+                  src={image}
                   alt="user avatar"
                 />
                 <Card.Header>{name}</Card.Header>
